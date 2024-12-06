@@ -17,6 +17,13 @@ repos:
       entry: make style            # 실행할 명령어 `make style` 명령어 실행
       types: [python]              # 검사할 파일 타입. 여기선 파이썬 파일만 해당
 
+# Q. 아니 루트 디렉토리에 Makefile이 있긴 한데, 이 파일에는 별도로 Makefile 내의 style 이라는 작업을 할 수 있을 정도로 경로를 특정하는 건덕지가
+#    없지 않나요?
+# make 명령어의 경우에 현재 디렉토리에 있는 Makefile을 자동으로 탐색하기에
+# 본 config에
+# entry: make style 이라고 되어있으므로 make 명령어가 실행되어 Makefile을 자동으로 탐색하고 거기 안에서
+# style이라는 작업을 찾아내어 명령어를 실행함.
+
 
 # 아래와 같은 식으로도 가능함
 # repos:
