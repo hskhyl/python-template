@@ -1,3 +1,7 @@
+# Makefile은 다양한 작업을 자동화해주는 데 사용됨.
+# Makefile은 작업(target)과 해당 작업이 샐항할 명령어(recipe)로 구성됨.
+# 각 작업은 target: dependencies 형식으로 정의되며, dependencies는 해당 작업이 실행되기 전에 실행되어야 하는 다른 작업들을 의미함
+
 clean: clean-pyc clean-test
 quality: set-style-dep check-quality
 style: set-style-dep set-style
