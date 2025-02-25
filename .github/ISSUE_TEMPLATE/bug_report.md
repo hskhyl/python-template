@@ -10,13 +10,13 @@ assignees:
 
 <!-- A clear and concise description of what the bug is. -->
 
-## 🔬 How To Reproduce
+## 🔬 How To Reproduce(재현 절차)
 
 Steps to reproduce the behavior:
 
 1. ...
 
-### Environment
+### Environment(실행 환경)
 
 - OS: [e.g. Linux / Windows / macOS]
 - Python version, get it with:
