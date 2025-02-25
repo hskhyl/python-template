@@ -18,33 +18,19 @@ Template repository for Python project
 
 - Commit template
 - Issue, PR Template
-- Add dummy test code
 - Auto-close stale issue
 
 ## 📄 Guideline
 
 ### 1. Setup
 
-- precommit, style, pytest, gitmessage, requirements
+- precommit, style, gitmessage, requirements
 
 ```bash
 make setup
 ```
 
-### 2. Writes your own code! ✏️
+### 2. 코드 세부적인 설명
+[본 벨로그에 적어놓았습니다.](https://velog.io/@hskhyl/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%85%9C%ED%94%8C%EB%A6%BF)
 
-Don't forget to update the `README`!
-
-## ⬆️ Contributing
-
-### 1. Test
-
-```bash
-make test
-```
-
-### 2. Execute code formatting & Check lint
-
-```bash
-make style
-```
+템플릿 원본 공유해주신 [멘토님](https://github.com/monologg)께 정말 감사드립니다-!
